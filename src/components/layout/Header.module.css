@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1rem);
+}
+
+.nav__logo {
+  font-family: "Pacifico", cursive;
+  font-size: 2.8rem;
+  color: var(--color-primary-dark);
+}
+
+.nav__button {
+  background-color: var(--color-primary);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.2rem 3.2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.nav__button_count {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--color-primary-xtra-light);
+  color: var(--color-primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__button:hover {
+  background-color: var(--color-primary-dark);
+  color: #fff;
+}
+
+.nav__button:active {
+  background-color: var(--color-primary);
+  color: var(--color-primary-xtra-light);
+}
