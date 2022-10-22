@@ -1,0 +1,60 @@
+.meal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bbb;
+  padding: 1rem;
+}
+
+.meal__info {
+  font-size: 1.8rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.meal__info h3 {
+  font-size: 600;
+}
+
+.meal__info p {
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+.meal__info span {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--color-primary-dark);
+}
+
+.meal__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.meal__form button {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+
+.meal__form button:hover {
+  background-color: var(--color-primary-dark);
+  color: var(--color-primary-xtra-light);
+}
+
+.meal_form button:active {
+  background-color: var(--color-primary);
+}

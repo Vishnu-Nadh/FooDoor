@@ -19,6 +19,7 @@
   --color-primary-light: #f76707;
   --color-primary: #e8590c;
   --color-primary-xtra-light: #ffe8cc;
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 html {

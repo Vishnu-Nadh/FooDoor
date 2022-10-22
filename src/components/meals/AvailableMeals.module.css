@@ -1,9 +1,16 @@
 .meals {
+  width: 90%;
   min-width: 36rem;
   /* max-height: 75vh; */
-  padding: 6rem;
+  padding: 4rem;
   overflow: hidden;
   border-radius: 10px;
   background: linear-gradient(145deg, #dddddd, #ffffff);
   box-shadow: 7px 7px 17px #dfdfdf, -7px -7px 17px #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .meals {
+    width: 60%;
+  }
 }

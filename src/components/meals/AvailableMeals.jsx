@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./AvailableMeals.module.css";
+import MealItem from "./MealItem";
 
 const DUMMY_MEALS = [
   {
@@ -33,7 +34,7 @@ const AvailableMeals = () => {
     <section className={styles.meals}>
       <ul>
         {DUMMY_MEALS.map((meal) => (
-          <li>{meal.name}</li>
+          <MealItem key={meal.id} meal={meal} id={meal.id}/>
         ))}
       </ul>
     </section>
