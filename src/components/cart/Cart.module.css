@@ -1,0 +1,27 @@
+.cart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  font-size: 1.6rem;
+  padding-top: 2rem;
+}
+
+.cart__billing {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.cart__price {
+  color: var(--color-primary-dark);
+}
+
+.cart button {
+    
+}

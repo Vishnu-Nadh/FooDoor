@@ -38,7 +38,7 @@
   gap: 1rem;
 }
 
-.meal__form button {
+/* .meal__form button {
   background-color: var(--color-primary);
   color: #fff;
   padding: 0.6rem 1.2rem;
@@ -57,4 +57,4 @@
 
 .meal_form button:active {
   background-color: var(--color-primary);
-}
+} */

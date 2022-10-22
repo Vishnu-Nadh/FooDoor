@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Header.module.css";
 
-const Header = () => {
+const Header = ({ onOpenModel }) => {
   return (
     <nav className={styles.nav}>
       <span className={styles.nav__logo}>FooDoor</span>
-      <button className={styles.nav__button}>
+      <button className={styles.nav__button} onClick={onOpenModel}>
         <span className={styles.nav__button_icon}>
           <i class="fa-solid fa-cart-shopping"></i>
         </span>

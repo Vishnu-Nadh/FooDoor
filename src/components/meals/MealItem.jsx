@@ -22,7 +22,7 @@ const MealItem = ({ meal, id }) => {
             step: "1",
           }}
         />
-        <button>+ Add to Cart</button>
+        <button className="btn-primary">+ Add to Cart</button>
       </form>
     </li>
   );
