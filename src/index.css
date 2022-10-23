@@ -37,6 +37,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   position: relative;
+  color: #333;
 }
 
 .btn-primary {

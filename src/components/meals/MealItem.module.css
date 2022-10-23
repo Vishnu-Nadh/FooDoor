@@ -38,23 +38,9 @@
   gap: 1rem;
 }
 
-/* .meal__form button {
-  background-color: var(--color-primary);
-  color: #fff;
-  padding: 0.6rem 1.2rem;
-  font-size: 1.4rem;
-  font-weight: 600;
-  border-radius: 50px;
-  border: none;
-  box-shadow: var(--shadow);
-  cursor: pointer;
+.error {
+  color: #fa5252;
+  font-style: italic;
+  font-size: 600;
+  letter-spacing: .7px;
 }
-
-.meal__form button:hover {
-  background-color: var(--color-primary-dark);
-  color: var(--color-primary-xtra-light);
-}
-
-.meal_form button:active {
-  background-color: var(--color-primary);
-} */
