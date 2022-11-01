@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./AvailableMeals.module.css";
 import MealItem from "./MealItem";
 import { useEffect, useState } from "react";
+import Loader from "../UI/Loader";
 
 const AvailableMeals = () => {
   const [meals, setMeals] = useState([]);
@@ -40,14 +41,7 @@ const AvailableMeals = () => {
   }, []);
 
   if (isLoading) {
-    return (
-      <div className={styles["lds-ring"]}>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    );
+    return <Loader />;
   }
 
   if (httpError) {

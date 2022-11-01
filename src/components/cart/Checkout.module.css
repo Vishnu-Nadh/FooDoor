@@ -27,6 +27,16 @@
   border: none;
   color: inherit;
   letter-spacing: 1px;
+  border: 0.5px solid var(--color-primary-xtra-light);
+}
+
+.form__group.invalid input {
+  box-shadow: 0 0 5px rgb(241, 98, 98);
+}
+
+.form__group.invalid p {
+  font-size: 1.2rem;
+  color: rgb(241, 98, 98);
 }
 
 .form__group input:focus {
